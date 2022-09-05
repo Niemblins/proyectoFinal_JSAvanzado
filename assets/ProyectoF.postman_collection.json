@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "385b62fa-ca22-4ee5-a704-04f660de2b6a",
+		"name": "ProyectoF",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23002437"
+	},
+	"item": [
+		{
+			"name": "santsAll",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/santos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"santos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "santId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/santos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"santos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newSants",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"nombre\": \"Isaac\",\n  \"fiesta\": \"4 de abril\",\n  \"biografia\": \"patriarca hijo de Abraham\",\n  \"imagen\": \"https: //static.wikia.nocookie.net/santabiblia/images/4/42/The_Sacrifice_of_Isaac_by_Caravaggio.jpg/revision/latest?cb=20150326145018&path-prefix=es\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/santos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"santos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editSants",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 5,\n    \"nombre\": \"Moises\",\n    \"fiesta\": \"4 de septiembre\",\n    \"biografia\": \"Libertador del pueblo de Israel\",\n    \"imagen\": \"https://1.bp.blogspot.com/-dijmsIPx_NI/YJ6u8tqofHI/AAAAAAAAYMA/35z1htjTkiAbScHTV1d7OJSc9ImHQpV_wCLcBGAsYHQ/s272/MOIS%25C3%2589S%2B2021.jpg\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/santos/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"santos",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editSantsMitad",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"nombre\": \"Sagrado Corazón de Jesús\",\n    \"fiesta\": \"Viernes de la semana siguiente al domingo de Corpus Christi.\",\n    \"biografia\": \"La devoción al Sagrado Corazón está por encima de otras devociones porque veneramos al mismo Corazón de Dios. Jaculatoria: Sagrado Corazón de Jesús, en Tí confio\",\n    \"imagen\": \"https://i.pinimg.com/564x/74/bd/0f/74bd0f959797ed1f0d50893f3fe1ec35.jpg\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/santos/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"santos",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteSants",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/api/santos/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"santos",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

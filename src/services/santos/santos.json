@@ -1,0 +1,32 @@
+
+
+[
+    {
+        "id": 1, 
+        "nombre": "Sagrado Corazón de Jesús",
+        "fiesta": "Viernes de la semana siguiente al domingo de Corpus Christi.", 
+        "biografia": "La devoción al Sagrado Corazón está por encima de otras devociones porque veneramos al mismo Corazón de Dios", 
+        "imagen": "https://i.pinimg.com/564x/74/bd/0f/74bd0f959797ed1f0d50893f3fe1ec35.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "El Inmaculado Corazón de María",
+        "fiesta": "Sábado de la semana siguiente al domingo de Corpus Christi.", 
+        "biografia": "El amor de su corazón se dirige primero a Dios y a su Hijo Jesús, pero se extiende también con solicitud maternal sobre todo el género humano que Jesús le confió al morir", 
+        "imagen": "https://i.pinimg.com/originals/d5/d6/f1/d5d6f1d8722ee935496df0e9de416bf0.jpg"
+        },
+    {
+        "id": 3, 
+        "nombre": "San Jose", 
+        "fiesta": "19 de junio", 
+        "biografia": "José es el símbolo de la prudencia, del silencio, de la generosidad, de la dignidad y de la aplicación en el trabajo",
+        "imagen": "https://desdelafe.mx/wp-content/uploads/2020/03/jesus-y-san-jose-683x1024.jpg"
+    },
+    {
+        "id": 4, 
+        "nombre": "San Pedro y San Pablo",
+        "fiesta": "29 de junio", 
+        "biografia": "Dos grandes apóstoles. Pedro: Roca sobre la cual Cristo edificó Su Iglesia. Pablo: lamado a ser apóstol, apartado para el evangelio de Dios",
+        "imagen": "https://desdelafe.mx/wp-content/uploads/2021/06/san-pedro-y-san-pablo.jpg"
+    }
+]
